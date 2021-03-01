@@ -4,5 +4,6 @@ terraform_version: 0.12
 
 tags:
 - pcs-config:tf12
-
-alwaysRunFullScan: false
+excludePattern:
+- 'tf_yml_yaml_json_zip/*.tf'
+# alwaysRunFullScan: false
