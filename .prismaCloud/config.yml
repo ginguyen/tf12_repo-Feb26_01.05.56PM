@@ -7,5 +7,5 @@ tags:
 includePattern:
 - tf12_with_issues/tf12_with_issues.tf
 excludePattern:
-- aws_all_issues/*
+- ./aws_all_issues/*
 # alwaysRunFullScan: false
