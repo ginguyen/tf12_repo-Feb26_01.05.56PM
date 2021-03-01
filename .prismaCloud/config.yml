@@ -4,6 +4,8 @@ terraform_version: 0.12
 
 tags:
 - pcs-config:tf12
+includePattern:
+- tf12_with_issues/tf12_with_issues.tf
 excludePattern:
-- aws_all_issues.tf
+- aws_all_issues/*
 # alwaysRunFullScan: false
